@@ -1,0 +1,181 @@
+._container{
+    position: relative;
+  }
+  
+  ._container ._card{
+    position: relative;
+    width: 13.4rem;
+    height: 21.4rem;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  ._container ._card:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9bdc28;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+  }
+  
+  ._container ._card:hover:before{
+    clip-path: circle(300px at 80% -20%);
+  }
+  
+  ._container ._card:after{
+    content: 'Nike';
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 12em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(255,255,25,0.05)
+  }
+  
+  ._container ._card .imgBx{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    width: 100%;
+    height: 220px;
+    transition: 0.5s;
+  }
+  
+  ._container ._card:hover .imgBx{
+    top: 0%;
+    transform: translateY(0%);
+      
+  }
+  
+  ._container ._card .imgBx img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-25deg);
+    width: 270px;
+  }
+  
+  ._container ._card .contentBx{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5.4rem;
+    text-align: center;
+    transition: 1s;
+    z-index: 1000;
+    direction: ltr !important;
+  }
+  
+  ._container ._card:hover .contentBx{
+    height: 11rem;
+  }
+  
+  ._container ._card .contentBx h3{
+    position: relative;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 0;
+  }
+  
+  ._container ._card .contentBx .size, ._container ._card .contentBx .color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 4px;
+    transition: 0.5s;opacity: 0;
+    visibility: hidden;
+
+  }
+  
+  ._container ._card:hover .contentBx .size{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+  }
+  
+  ._container ._card:hover .contentBx .color{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.6s;
+  }
+  
+  ._container ._card .contentBx .size h3, ._container ._card .contentBx .color h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+  }
+  
+  ._container ._card .contentBx .size span{
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    margin: 0 5px;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  ._container ._card .contentBx .size span:hover{
+    background: #9bdc28;
+  }
+  
+  ._container ._card .contentBx .color span{
+    width: 20px;
+    height: 20px;
+    background: #ff0;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  ._container ._card .contentBx .color span:nth-child(2){
+    background: #9bdc28;
+  }
+  
+  ._container ._card .contentBx .color span:nth-child(3){
+    background: #03a9f4;
+  }
+  
+  ._container ._card .contentBx .color span:nth-child(4){
+    background: #e91e63;
+  }
+  
+  ._container ._card .contentBx a{
+    display: inline-block;
+    padding: .6em 1.4em;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: .6em;
+    text-decoration: none;
+    font-weight: 600;
+    color: #111;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.5s;
+
+  }
+  
+  ._container ._card:hover .contentBx a{
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.75s;
+    
+  }
+  

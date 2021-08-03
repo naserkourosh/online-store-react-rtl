@@ -1,0 +1,30 @@
+.top-header{
+    background-color: rgb(23, 69, 129);
+    width: 100%;
+    height: 2.4rem;
+}
+.phone-header a{
+    color: #fff;
+    text-decoration: none;
+    padding-top: 1em !important;
+}
+.icon-top{
+    color: #fff;
+    padding-left: 1em;
+}
+#example-search-input{
+    padding: 0 1.4em 0 2em;
+}
+.menu-top{
+    height: 4rem;
+}
+.menu-top .user span svg,.menu-top .basket span svg{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.banner-top{
+    height: 300px;
+}
+.h-300{
+    height: 300px;
+}

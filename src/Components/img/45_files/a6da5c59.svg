@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="108" viewBox="0 0 210 108">
+    <defs>
+        <filter id="a" width="105.5%" height="250%" x="-2.7%" y="-75%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1"/>
+        </filter>
+        <filter id="b" width="107.5%" height="250%" x="-3.8%" y="-75%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(1 2)">
+        <path stroke="#D9D9DA" stroke-linecap="round" stroke-width="3" d="M.986 6h167.401M179 6h27.648"/>
+        <g stroke-linecap="round" stroke-width="3">
+            <g stroke="#000">
+                <path d="M95.559 50.002H80c-3.02-.239-4.531-1.55-4.531-3.934 0-2.383 1.51-4.145 4.531-5.285l46.59-21.093M134.252 22.313l38.82 17.673c4.162 1.646 6.242 3.673 6.242 6.082 0 2.864-2.08 4.175-6.241 3.934H96.44M127.126 19.334c.515-1.747 2.467-4.184 3.337-5.14C132.617 11.827 134 9.635 134 7a7 7 0 0 0-14 0"/>
+            </g>
+            <g stroke="#787878">
+                <path d="M68.316 50.002H34c-3.02-.239-4.531-1.55-4.531-3.934 0-2.383 1.51-4.145 4.531-5.285L80.59 19.69M88.252 22.313l8.364 3.808M81.126 19.334c.515-1.747 2.467-4.184 3.337-5.14C86.617 11.827 88 9.635 88 7a7 7 0 0 0-14 0"/>
+            </g>
+        </g>
+        <ellipse cx="131" cy="102" fill="#E0E0E0" filter="url(#a)" opacity=".499" rx="55" ry="2"/>
+        <ellipse cx="63" cy="98" fill="#E0E0E0" filter="url(#b)" opacity=".499" rx="40" ry="2"/>
+        <path stroke="#D9D9DA" stroke-linecap="round" stroke-width="3" d="M83.499 6h8.017M129.499 6h8.017"/>
+    </g>
+</svg>
