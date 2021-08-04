@@ -33,7 +33,7 @@ function CartSlider() {
   return (
     <>
       <Swiper
-        slidesPerView={5}
+        slidesPerView={4}
         spaceBetween={6}
         navigation
 
