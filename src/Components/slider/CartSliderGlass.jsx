@@ -33,7 +33,7 @@ function CartSliderGlass() {
   return (
     <>
       <Swiper
-        slidesPerView={5}
+        slidesPerView={4}
         spaceBetween={6}
         navigation
         onSwiper={(swiper) => console.log(swiper)}
